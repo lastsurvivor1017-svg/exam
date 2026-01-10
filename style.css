@@ -446,6 +446,55 @@ color: #1178B2;
    font-size: 20px;
    display: none;
 }
+.centerheaderend{
+    max-width: 1200px;
+    height: 1160px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.parr1{
+    font-size: 30px;
+    color: #016CA8;
+}
+.parr2{
+    font-size: 20px;
+}
+.divhero{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.items2{
+    width: 31%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+.parr3{
+    font-size: 20px;
+}
+.backgroundvideo{
+    width: 100%;
+    height: 65%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.parrr1{
+    color: white;
+    font-size: 20px;
+}
 @media (max-width: 510px){
     .imageinava
     {
@@ -632,5 +681,26 @@ color: #1178B2;
         width: 100%;
         position: absolute;
         top: 6500px;
+    }
+    .centerheaderend{
+        width: 100%;
+        height: 1500px;
+        margin-top: 550px;
+        display: flex;
+        flex-direction: column;
+    }
+    .divhero{
+        display: flex;
+        flex-direction: column;
+    }
+    .items2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        gap: 20px;
+    }
+    .backgroundvideo{
+        height: 30%;
     }
 }
