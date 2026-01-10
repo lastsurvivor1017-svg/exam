@@ -495,6 +495,84 @@ color: #1178B2;
     color: white;
     font-size: 20px;
 }
+.centerend{
+    max-width: 1200px;
+    height: 1300px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.parrr2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #1178B2;
+}
+.divbutton{
+    width: 100%;
+    height: 27%;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+}
+.divbutton div{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.2px solid rgba(128, 126, 126, 0.3);
+}
+.parrr3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.parrr4{
+    font-size: 20px;
+    font-weight: 600;
+    display: none;
+}
+.imageminunamidanom{
+    width: 39px;
+    height: 39px;
+}
+.parrrr1{
+    color: #555555;
+}
+.parrrr2{
+    color: #2A79C2;
+}
+.butoon2{
+    width: 100%;
+    height: 7%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px black;
+}
+.btnn{
+    padding: 20px 30px;
+    background: linear-gradient(#61B5E4,#016CA8);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 25%;
+    font-size: 15px;
+}
+.span3{
+    display: none;
+}
+.parrrrr
+{
+    display: none;
+}
+.parrrr3{
+    display: none;
+}
 @media (max-width: 510px){
     .imageinava
     {
@@ -703,4 +781,56 @@ color: #1178B2;
     .backgroundvideo{
         height: 30%;
     }
+    .span4{
+        display: none;
+    }
+    .span3{
+        display: block;
+        color: #000000;
+    }
+    .parrr3{
+        display: flex;
+        gap: 5px;
+        text-align: center;
+    }
+    .parrrrr
+{
+    display: block;
+}
+.under4{
+    width: 100%;
+    height: 150px;
+}
+.parrrr2{
+    display: none;
+}
+.parrrr3{
+    display: block;
+}
+.parrrr1{
+    display: none;
+}
+.butoon2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.centerend{
+    height: 3000px;
+}
+.mod{
+    display: block;
+}
+.mod1{
+    display: none;
+}
+.parrr4{
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+}
+.btnn{
+    display: none;
+}
 }
