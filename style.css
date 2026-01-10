@@ -88,6 +88,118 @@ display: none;
     border-radius: 15px;
     color: white;
 }
+.informationdiv
+{
+    width: 100%;
+    height: 1100px;
+    margin: auto;
+}
+.pars
+{
+    width: 100%;
+    display: flex;
+}
+.par2
+{
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #016CA8;
+    margin-left: 120px;
+}
+.under
+{
+    max-width: 1200px;
+    height: 40%;
+    margin: auto;
+}
+.under1
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 60px;
+}
+.item
+{
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.imageworld
+{
+    width: 28%;
+    height: 50%;
+    position: relative;
+    bottom: 40px;
+    background-image: url(./kisspng-competitor-analysis-market-research-marketing-quan-5b102810d85456\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.par3
+{
+font-size: 20px;
+color: #1178B2;
+
+}
+.par4
+{
+    font-size: 18px;
+    font-family: normal;
+}
+.under1 button{
+    padding: 15px 30px;
+    width: 220px;
+    background-color: #07AF91;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.under2
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 120px;
+}
+.imagerocet
+{
+    width: 25%;
+    height: 40%;
+    background-image: url(./rocket\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: 40px;
+}
+.item1
+{
+    width: 43%;
+    height: 80%;
+     display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.top
+{
+    margin-top: 30px;
+}
+.under2 button{
+    padding: 15px 30px;
+    width: 220px;
+    background-color: #07AF91;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
 @media (max-width: 510px){
     .imageinava
     {
@@ -133,6 +245,75 @@ display: none;
         width: 70%;
         border-radius: 4px;
         margin: auto;
+        font-size: 20px;
+    }
+    .informationdiv
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        height: 3400px;
+        position: relative;
+        bottom: 800px;
+        background-color: #016CA8;
+    }
+    .under
+    {
+        align-items: start;
+    }
+    .under1
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 100%;
+        height: 50%;
+    }
+    .imageworld
+    {
+        height: 80%;
+        width: 80%;
+    }
+    .item
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .par3{
+        font-size: 25px;
+        text-align: center;
+
+    }
+    .par4{
+        font-size: 20px;
+    }
+    .under1 button{
+        margin: auto;
+        width: 80%;
+        padding: 25px;
+        font-size: 20px;
+    }
+    .under2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 50%;
+    }
+    .item1
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .imagerocet{
+        width: 50%;
+        height: 80%;
+    }
+     .under2 button{
+        margin: auto;
+        width: 80%;
+        padding: 25px;
         font-size: 20px;
     }
 }
