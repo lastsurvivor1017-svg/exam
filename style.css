@@ -295,6 +295,157 @@ color: #1178B2;
     border-radius: 10px;
     margin-top: 20px;
 }
+.centerheader
+{
+    max-width: 1000px;
+    height: 661px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.parper{
+    font-size: 30px;
+    color: #016CA8;
+}
+.divkulbtn
+{
+    width: 100%;
+    height: 50px;
+    background-color: #EEF1F4;
+}
+.btn2
+{
+    width: 25%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: #88BBD8;
+    color: white;
+    font-size: 17px;
+}
+.btn3
+{
+    width: 25%;
+    height: 100%;
+    font-size: 17px;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: 0.5 solid rgba(0, 0, 0, 0);
+    color: #484848;
+}
+.btn4
+{
+    width: 23%;
+    height: 100%;
+    font-size: 17px;
+    border: none;
+    color: #484848;
+}
+.informaindiv1
+{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.profilediv
+{
+    width: 35%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.divdiv
+{
+    width: 55%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    flex-wrap: wrap;
+    display: flex;
+    gap: 26px;
+    z-index: 2;
+}
+.items
+{
+    width: 47%;
+    height: 48%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+.items p{
+    color: #10101080;
+    text-align: center;
+}
+.items1
+{
+    width: 47%;
+    height: 48%;
+    background-color: #1178B2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+.items1 p{
+    color: #10101080;
+    text-align: center;
+}
+.imageworld1
+{
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    top: 3330px;
+    z-index: 1;
+    background-image: url(./Vector\ \(26\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.span1{
+    color: #07AF91;
+}
+.span2{
+    color: black;
+}
+.divimageprofile{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.btn5{
+    padding: 25px 20px;
+    width: 70%;
+    border: none;
+   background: linear-gradient(#61B5E4,#016CA8);
+   color: white;
+   border: none;
+   border-radius: 10px;
+}
+.btn6{
+    padding: 25px 20px;
+    width: 80%;
+    border: none;
+   background: linear-gradient(#61B5E4,#016CA8);
+   color: white;
+   border: none;
+   border-radius: 10px;
+   font-size: 20px;
+   display: none;
+}
 @media (max-width: 510px){
     .imageinava
     {
@@ -439,5 +590,47 @@ color: #1178B2;
     }
     .divinforimage h1{
         font-size: 30px;
+    }
+    .parper{
+        text-align: center;
+    }
+    .divkulbtn{
+        width: 92%;
+        margin: auto;
+    }
+    .btn4{
+        width: 19%;
+    }
+    .informaindiv1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 2500px;
+    }
+    .profilediv{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .btn5
+    {
+        display: none;
+    }
+    .btn6{
+        display: block;
+        margin: auto;
+    }
+    .divdiv{
+        width: 100%;
+        display: flex;
+        height: 600px;
+    }
+    .items{
+        width: 45%;
+    }
+    .imageworld1{
+        width: 100%;
+        position: absolute;
+        top: 6500px;
     }
 }
