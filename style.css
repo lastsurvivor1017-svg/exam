@@ -950,6 +950,14 @@ justify-content: space-between;
     width: 100%;
     height: 100px;
 }
+.endfoooter{
+    width: 100%;
+    height: 250px;
+    background-image: url(./Group\ 928\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
 @media (max-width: 510px){
     .imageinava
     {
@@ -1377,5 +1385,9 @@ text-align: center;
     height: 50px;
     display: flex;
     justify-content: center;
+}
+.endfoooter{
+    height: 50px;
+    margin-top: 200px;
 }
 }
