@@ -717,6 +717,15 @@ color: #1178B2;
     flex-direction: column;
     justify-content: space-around;
 }
+.herodivimagenami{
+    max-width: 1200px;
+    height: 160px;
+    background-image: url(./Group\ 1049.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+     margin-top: 100px;
+}
 @media (max-width: 510px){
     .imageinava
     {
